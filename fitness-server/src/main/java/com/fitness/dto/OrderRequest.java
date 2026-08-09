@@ -1,0 +1,1 @@
+package com.fitness.dto; import lombok.Data; import javax.validation.constraints.NotNull; @Data public class OrderRequest { @NotNull private Long courseId; private Long userId; private String remark; }

@@ -1,0 +1,1 @@
+package com.fitness.dto; import lombok.Data; import javax.validation.constraints.NotBlank; @Data public class BehaviorRecordRequest { @NotBlank private String behaviorType; private String targetType; private Long targetId; private String targetTags; }

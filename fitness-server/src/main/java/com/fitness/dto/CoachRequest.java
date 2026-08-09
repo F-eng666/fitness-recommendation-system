@@ -1,0 +1,1 @@
+package com.fitness.dto; import lombok.Data; import javax.validation.constraints.NotBlank; @Data public class CoachRequest { @NotBlank private String name; private Integer gender; private Integer age; private String experience; private String specialty; private String introduction; private Long venueId; }

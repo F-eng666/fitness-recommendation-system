@@ -1,0 +1,1 @@
+package com.fitness.dto; import lombok.Data; import javax.validation.constraints.NotBlank; @Data public class ReviewReplyRequest { private Long reviewId; @NotBlank private String reply; }

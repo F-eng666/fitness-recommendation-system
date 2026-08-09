@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node *)",
+      "Bash(curl *)",
+      "Bash(powershell.exe -Command \"Get-Process -Name java -ErrorAction SilentlyContinue | Stop-Process -Force\")",
+      "Bash(mvn package *)",
+      "Bash(nohup java -jar target/fitness-server-1.0.0.jar)",
+      "Bash(C:/Program Files/MySQL/MySQL Workbench 8.0/mysql.exe *)",
+      "Bash(rm -f \"C:/Users/R7000P/Desktop/健身推荐系统/fitness-server/target/fitness-server-1.0.0.jar.original\")",
+      "Bash(rm -f target/*.jar target/*.original)",
+      "Bash(mvn clean *)",
+      "Bash(mvn spring-boot:run)",
+      "Bash(mysql *)",
+      "Bash(where mysql *)",
+      "Read(//c/Program Files/**)",
+      "Bash(cmd.exe *)",
+      "Bash(C:\\\\Program Files\\\\MySQL\\\\MySQL Workbench 8.0\\\\mysql.exe *)",
+      "Bash(taskkill //F //IM java.exe)"
+    ]
+  }
+}
